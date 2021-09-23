@@ -15,9 +15,11 @@ body {
 
 /* ////////INDEX/////////
   1. NAVIGATION
+      a. SIDEBAR
   2. LANDING PAGE
-  3. SIDEBAR
-  4. ABOUT ME
+  3. ABOUT ME
+  4. PROJECTS
+  5. CONTACT
 
 
   MEDIA QUERIES
@@ -59,32 +61,6 @@ body {
   top: -1000px;
 }
 
-/* LANDING PAGE */
-.landing-container {
-  display: flex;
-  flex-direction: column;
-  width: 100%;
-  height: 90vh;
-  justify-content: center;
-}
-.landing-text {
-  text-align: center;
-  padding-bottom: 3vh;
-}
-.landing-text p {
-  font-size: calc(1em + 0.5vw);
-}
-.landing-text h1 {
-  font-size: calc(3em + 1vw);
-}
-.image-container {
-  filter: brightness(99%);
-}
-.red-panda {
-  width: 15em;
-  height: 15em;
-}
-
 /* SIDEBAR */
 .sidebar {
   width: 6vw;
@@ -111,6 +87,32 @@ body {
   color: orangered;
   transition: ease-out 0.4s;
   transform: translateY(-5px);
+}
+
+/* LANDING PAGE */
+.landing-container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 90vh;
+  justify-content: center;
+}
+.landing-text {
+  text-align: center;
+  padding-bottom: 3vh;
+}
+.landing-text p {
+  font-size: calc(1em + 0.5vw);
+}
+.landing-text h1 {
+  font-size: calc(3em + 1vw);
+}
+.image-container {
+  filter: brightness(99%);
+}
+.red-panda {
+  width: 15em;
+  height: 15em;
 }
 
 /* ABOUT ME */
