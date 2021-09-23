@@ -58,6 +58,7 @@ body {
   position: absolute;
   top: -1000px;
 }
+
 /* LANDING PAGE */
 .landing-container {
   display: flex;
@@ -83,6 +84,7 @@ body {
   width: 15em;
   height: 15em;
 }
+
 /* SIDEBAR */
 .sidebar {
   width: 6vw;
@@ -107,9 +109,10 @@ body {
 .fa-github-alt:hover,
 .fa-stack-overflow:hover {
   color: orangered;
-  transition: ease-in 0.4s;
+  transition: ease-out 0.4s;
   transform: translateY(-5px);
 }
+
 /* ABOUT ME */
 .about {
   width: 100%;
@@ -144,6 +147,65 @@ body {
   align-items: center;
   font-size: 1.4em;
 }
+/* 
+.fa-html5:hover {
+  color: orangered;
+}
+
+.fa-css3-alt:hover {
+  color: blue;
+}
+////////There is a small border on the hover
+.fa-js-square:hover {
+  color: yellow;
+  background-color: black;
+}
+*/
+
+/*PROJECTS*/
+.projects {
+  width: 100%;
+  height: 90vh;
+  border-bottom: 1px solid #000;
+}
+
+.projects-container {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+/* CONTACT */
+.contact {
+  width: 100%;
+  height: 90vh;
+}
+
+.contact-container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  font-size: 1.4em;
+}
+
+.social-media-container {
+  padding-top: 5vh;
+  font-size: 4rem;
+}
+
+.social-media-container a {
+  color: black;
+}
+
+.social-media-container span:hover {
+  color: orangered;
+}
+
+
+
 /*//////////MEDIA QUERIES/////////////*/
 /* Navigation Bar for Mobile */
 @media screen and (max-width: 760px) {
@@ -333,6 +395,7 @@ body {
   .about-container {
     flex-direction: row;
     align-items: center;
+    height: 90vh;
   }
 
   .about-container img {
